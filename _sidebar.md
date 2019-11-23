@@ -3,8 +3,19 @@
     - [启动与停止](/zh-cn/start&stop)
     - [日志](/zh-cn/log)
 	- [配置](/zh-cn/settings)
-	  	
-- [REST接口]
+	
+- [ 基本概念 ]
+    - [基础](/zh-cn/basic_concepts)  
+	- [Application](/zh-cn/application)  
+	- [Profile](/zh-cn/profile)  
+	- [Content](/zh-cn/content) 
+	
+- [REST]
+    - [Rest](/zh-cn/rest)
+	- [token](/zh-cn/token)
+	- [Credential](/zh-cn/credential)
+	
+- [多语言接口]		
 	- [PHP](/zh-cn/php)
 	- [Java](/zh-cn/ava)
 	- [C++](/zh-cn/c++)
@@ -18,7 +29,7 @@
 	- [Lua](/zh-cn/lua)
 	 
 - [开发工具]
-	- [rest](/zh-cn/rest_tools)
+	- [restTools](/zh-cn/rest_tools)
 	- [phpPgAdmin](/zh-cn/phppgadmin)
 
 - [备份还原]
