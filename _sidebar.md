@@ -1,19 +1,18 @@
 - [ 基础 ]
     - [安装](/zh-cn/install)
     - [启动与停止](/zh-cn/start&stop)
-    - [日志](/zh-cn/log)
-	- [配置](/zh-cn/settings)
 	
 - [ 基本概念 ]
-    - [基础](/zh-cn/basic_concepts)  
+    - [总体系统架构](/zh-cn/framework)  
+    - [Rest](/zh-cn/rest)
+	- [Tag](/zh-cn/tag) 
+	- [Token](/zh-cn/token)
+	- [Credential](/zh-cn/credential)
 	- [Application](/zh-cn/application)  
 	- [Profile](/zh-cn/profile)  
 	- [Content](/zh-cn/content) 
 	
-- [REST]
-    - [Rest](/zh-cn/rest)
-	- [token](/zh-cn/token)
-	- [Credential](/zh-cn/credential)
+ 
 	
 - [多语言接口]		
 	- [PHP](/zh-cn/php)
@@ -27,6 +26,10 @@
 	- [消息队列](/zh-cn/mq)
 	- [rabbitmq](/zh-cn/rabbitmq)
 	- [Lua](/zh-cn/lua)
+	
+- [配置]	 
+    - [日志](/zh-cn/log)
+	- [配置](/zh-cn/settings)	
 	 
 - [开发工具]
 	- [restTools](/zh-cn/rest_tools)

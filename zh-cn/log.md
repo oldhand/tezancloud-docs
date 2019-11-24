@@ -1,4 +1,7 @@
 
+<h1 align="center">
+<img src="https://github.com/oldhand/images/raw/master/tezancloud/running.jpg" width="1024">
+</h1>
 
 ## 日志说明
   
@@ -9,7 +12,7 @@
   * [127.0.0.1] :  访问IP
   * [0/30] : 占用连接池数/总连接池数
   * [1ms] : 当次请求后台总计执行时间
-  * [GET] : GET表示请求类型(get表示查询数据，POST为创建数据，PUT为修改数据，DELETE为删除数据)
+  * [GET] : GET表示请求类型(GET表示查询数据，POST为创建数据，PUT为修改数据，DELETE为删除数据)
   * [admin] : 请求的应用名称
   * /xn/rest/1.0/content(type eic 'users'&my.profileid = 'm0ju5li2541') : 请求的主体，综合查询条件
   * count=true : 是否返回记录总数
@@ -21,10 +24,12 @@
   ```bash
   [debug]clear memcache Label: "loginhistorys,loginhistorys_m0ju5li2541" Hostname:"admin"
   ```
+  * 表示admin应用，清除了两个缓存标签，分别为loginhistorys,loginhistorys_m0ju5li254。
   
   ```bash
   memcache_set key: "dz6uhkliy1a7zygp1d3ktxi2d" Label: "announcements" stored 
   ```
+  * 表示建了一个缓存，标签为announcements。
 
 ## log4erl.conf 配置说明
   

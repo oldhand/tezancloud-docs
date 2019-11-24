@@ -1,6 +1,6 @@
 ## centos与mac下启动
   * 首先确保redis服务端已经启动
-  * 启动消息队列debug
+  * 启动消息队列
   ```bash
   cd rabbitmq
   ./rabbitmq.sh start
