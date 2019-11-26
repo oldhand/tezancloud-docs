@@ -38,7 +38,11 @@
 - [备份还原]
 	- [备份](/zh-cn/backuo)
 	- [还原](/zh-cn/restore)
-
+	
+- [CDN]
+	- [配置](/zh-cn/cdnsetting)
+	- [使用](/zh-cn/cdnuse)
+	
 - [分布式布署方案]
 	- [数据库集群](/zh-cn/postgresql)
 	- [redis集群](/zh-cn/redis)

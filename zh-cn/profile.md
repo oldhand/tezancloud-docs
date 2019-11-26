@@ -1,0 +1,34 @@
+**Profile即用户**<br>
+```json
+{
+	"id":"q5s71tfc18d",
+	"xn_id":"q5s71tfc18d",
+	"xn_application":null,
+	"xn_type":"profile",
+	"title":"admin",
+	"published":"2019-11-26 09:32:20",
+	"updated":"2019-11-26 09:32:33",
+	"author":null,
+	"browser":"",
+	"system":"",
+	"reg_ip":"",
+	"identitycard":"",
+	"realname":"",
+	"city":"",
+	"province":"",
+	"mobile":"15974160308",
+	"birthdate":"",
+	"regioncode":"",
+	"region":"",
+	"country":"",
+	"gender":"",
+	"link":"",
+	"email":"xxx@tezan.cn",
+	"status":"true",
+	"givenname":"",
+	"type":"admin",
+	"uuid":"bda221ba-ed96-4f5e-9913-69ff86a517ba",
+	"identifier":"1"
+}
+```
+一个简单的用户数据。
