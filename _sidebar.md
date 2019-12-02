@@ -49,6 +49,9 @@
 	- [rest节点冗余](/zh-cn/restnodes)
 	- [nginx负载均衡](/zh-cn/nginx)
 
+- [ Q & A ]
+	- [问题集合](/zh-cn/QA)
+
 - [ 更新日志 ]
 	- [汇总](/zh-cn/release)
 

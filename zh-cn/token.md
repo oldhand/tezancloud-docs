@@ -3,8 +3,8 @@
 ## 配置Token认证码
 在安装目录，可以找到./deps/store/store.conf的配置文件。
 ```bash
-{'token',"****************"}.
-
+{'token','disabled'}. %%Token认证开关  enabled,disabled
+{'secret','****************'}.   %%Token认证码, 任意长度字符串
 ```
 请配置token认证码。
 
@@ -24,7 +24,7 @@ token = MD5(相对请求地址 + token认证码 + 时间戳);
 相对请求地址为：/xn/rest/1.0/content(id=284436)?xn_out=xml<br>
 ```bash
 var timestamp = ?;
-var token = md5("/xn/rest/1.0/content(id=284436)?xn_out=xml" + "****************" + timestamp);
+var token = md5("/xn/rest/1.0/content(id=284436)?xn_out=xml" + timestamp + "****************");
 
 ```
 timestamp为时间戳。<br>

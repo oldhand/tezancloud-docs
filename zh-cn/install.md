@@ -11,7 +11,7 @@
   yum -y install wget
   # 安装redis
   yum -y install redis  
-  # 安装erlang 经测试版本必须不低于20.3，更高级的版本是否有兼容性问题还有待发现。
+  # 安装erlang 经测试，erlang版本必须不低于20.3。 
   wget http://erlang.org/download/otp_src_20.3.tar.gz
   tar xzvf otp_src_20.3.tar.gz  
 	cd otp_src_20.3
@@ -39,7 +39,7 @@
  ```bash
   # 安装redis
   brew install redis  
-  # 安装erlang 经测试版本必须不低于20.3，更高级的版本是否有兼容性问题还有待发现。
+  # 安装erlang 经测试，erlang版本必须不低于20.3。 
   wget http://erlang.org/download/otp_src_20.3.tar.gz
   tar xzvf otp_src_20.3.tar.gz  
 	cd otp_src_20.3
