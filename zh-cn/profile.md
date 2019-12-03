@@ -3,7 +3,7 @@
 {
 	"id":"q5s71tfc18d",
 	"xn_id":"q5s71tfc18d",
-	"xn_application":null,
+	"xn_application":"admin",
 	"xn_type":"profile",
 	"title":"admin",
 	"published":"2019-11-26 09:32:20",

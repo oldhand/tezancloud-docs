@@ -7,7 +7,7 @@
 {
 	"id":"admin",
 	"xn_id":"admin",
-	"xn_application":null,
+	"xn_application":"admin",
 	"xn_type":"application",
 	"title":"oldhand 2019-11-26 01:32:16 create.",
 	"published":"2019-11-26 09:32:16",
